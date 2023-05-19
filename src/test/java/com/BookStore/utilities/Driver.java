@@ -8,8 +8,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
-    // Creating a private constructor, we are closing access to the
-    // object of this class from outside the class
+//     Creating a private constructor, we are closing access to the
+//     object of this class from outside the class
     private Driver() {
     }
     // We make WebDriver private, because we want to close access from outside of class
@@ -50,4 +50,6 @@ public class Driver {
             driverPool.remove();
         }
     }
+
+
 }

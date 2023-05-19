@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features" ,
         glue = "com/BookStore/step_definitions",
         dryRun = false,
-        tags = "@wp"
+        tags = "@api"
 )
 public class Runner {
 }

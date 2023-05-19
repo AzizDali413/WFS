@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.Set;
 
 public class BrowserUtils {
@@ -55,7 +56,7 @@ public class BrowserUtils {
 
     public static void waitForVisibilityOf(WebElement element){
 
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),10);
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until(ExpectedConditions.visibilityOf(element));
 
     }
